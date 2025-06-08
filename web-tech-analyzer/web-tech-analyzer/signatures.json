@@ -1,0 +1,47 @@
+{
+    "wordpress": {
+        "html_patterns": [
+            "wp-content",
+            "wp-includes"
+        ],
+        "headers": [
+            "X-Pingback",
+            "X-Generator"
+        ],
+        "meta_generator": [
+            "WordPress"
+        ]
+    },
+    "joomla": {
+        "html_patterns": [
+            "joomla"
+        ],
+        "headers": [],
+        "meta_generator": [
+            "Joomla"
+        ]
+    },
+    "drupal": {
+        "html_patterns": [
+            "drupal-settings-json"
+        ],
+        "headers": [],
+        "meta_generator": [
+            "Drupal"
+        ]
+    },
+    "laravel": {
+        "html_patterns": [
+            "laravel_session"
+        ],
+        "headers": [],
+        "meta_generator": []
+    },
+    "codeigniter": {
+        "html_patterns": [
+            "ci_session"
+        ],
+        "headers": [],
+        "meta_generator": []
+    }
+}
